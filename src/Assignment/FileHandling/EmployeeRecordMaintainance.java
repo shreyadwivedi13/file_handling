@@ -31,29 +31,32 @@ public class EmployeeRecordMaintainance {
 	static final Logger logg = LogManager.getLogger(EmployeeRecordMaintainance.class.getName());
 
 	static HashMap<Integer, Employee> uniqueRecords = new HashMap<>(); // contains the unique records of the
-																				// original
-	// file.
+																		// original file
+
 	static List<String> overwrittenRecords = new ArrayList<>(); // contains the overwritten records.
 	static HashMap<Integer, Employee> mainRecords = new HashMap<>(); // contains the new added records.
-	static TreeMap<Integer, Employee> sorted = new TreeMap<>(); // to sort the new records.
+	
 	static int overwrittenRec_no = 0; // number of overwritten records.
 	static int addedRec_no = 0; // number of newly added records.
+	static int duplicateRec_no = 0;
 
-	public final static String overwrittenRecordFile = "ReferenceCopy.csv";
-	public final static String DEFAULT_INPUT_FILE_PATH = "./dataFiles/rawRecord.csv";// ="C:\\Users\\sdwivedi\\Desktop\\files\\inputFile.csv";
-	public final static String DEFAULT_TARGET_FILE_PATH = "./dataFiles/finalRecord.dat";// ="C:\\Users\\sdwivedi\\Desktop\\files\\finalRecord.dat";
-	//final static String DEFAULT_NEW_INPUT_FILE_PATH="./defaultFiles/newData.csv";
-	
+	public final static String overwrittenRecordFile = "./dataFiles/ReferenceCopy.csv";// file that will store all the deleted
+																			// duplicate records and the overwritten
+																			// records.
+	public final static String DEFAULT_INPUT_FILE_PATH = "./dataFiles/rawRecord.csv";
+	public final static String DEFAULT_TARGET_FILE_PATH = "./dataFiles/finalRecord.dat";
+
 	// file that will store all the deleted duplicate records and the overwritten
 	// records.
 
-	public static boolean readOriginalCSV(String INPUT_FILE_PATH)
+	public static void readOriginalCSV(String INPUT_FILE_PATH) throws Exception
 	// to read raw data file and store unique records in UniqueRecord hash map.
-	{	
-		if(INPUT_FILE_PATH== null||INPUT_FILE_PATH.isEmpty())
-		{
-			INPUT_FILE_PATH=DEFAULT_INPUT_FILE_PATH;
+	{
+		if (INPUT_FILE_PATH == null || INPUT_FILE_PATH.isEmpty()) {
+			INPUT_FILE_PATH = DEFAULT_INPUT_FILE_PATH;
 		}
+		TreeMap<Integer, Employee> sorted = new TreeMap<>(); // to sort the new records.
+		
 		try (BufferedReader br = new BufferedReader(new FileReader(INPUT_FILE_PATH));) {
 			String contentLine = br.readLine();
 			String[] temp;
@@ -75,25 +78,24 @@ public class EmployeeRecordMaintainance {
 					// check for existing record using return value of put method of hashmap
 					if (updatedrecord != null) {
 						overwrittenRecords.add(contentLine);// entering overwritten into "overwrittenRecord" ArrayList
+						duplicateRec_no++;
+					}
 
-					
 				}
 
 			}
-
-		}} catch (IOException ioe) {
-			ioe.printStackTrace();
-			logg.fatal("Error in closing the BufferedReader(in inputFile function)");
-			return false;
+		} catch (IOException ioe) {
+			throw new Exception("Error in closing the BufferedReader(in inputFile function)");
+			
 		}
 
 		uniqueRecords.putAll(sorted);
-		logg.info("uniqueRecords HashMap:");
+		/*logg.info("uniqueRecords HashMap:");
 		for (Map.Entry<Integer, Employee> each : uniqueRecords.entrySet()) {
 			logg.info(each.getValue());
 		}
-		logg.info("******************************");
-		return true;
+		logg.info("******************************");*/
+		
 	}
 
 	public static void readTargetFile(String TARGET_FILE_PATH) {
@@ -103,7 +105,7 @@ public class EmployeeRecordMaintainance {
 			TARGET_FILE_PATH = DEFAULT_TARGET_FILE_PATH;
 		}
 		try (BufferedReader br1 = new BufferedReader(new FileReader(TARGET_FILE_PATH));) {
-			// System.out.println("Reading the target file using readLine() method:");
+			
 			String contentLine1 = br1.readLine();
 			String[] temp1;
 			Employee r1;
@@ -123,21 +125,21 @@ public class EmployeeRecordMaintainance {
 					// check for existing record using return value of put method of hashmap
 					if (updatedrecord != null) {
 						overwrittenRecords.add(contentLine1);
+						duplicateRec_no++;
 					}
 				}
 			}
 
 		} catch (IOException ioe) {
-			ioe.printStackTrace();
-			logg.fatal("Error in closing the BufferedReader(while reading the targetFile.)");
+		logg.info("Error in closing the BufferedReader(while reading the targetFile.)");
 
 		}
-		logg.info("mainRecord HashMap:");
+		/*logg.info("mainRecord HashMap:");
 		for (Map.Entry<Integer, Employee> each : mainRecords.entrySet()) {
 			logg.info((each.getValue()));
 
 		}
-		logg.info("******************************");
+		logg.info("******************************");*/
 	}
 
 	public static Employee setDataFields(String[] temp, Employee rec) {
@@ -158,21 +160,21 @@ public class EmployeeRecordMaintainance {
 		// this function will merge the hashmap of both targetFile and new record file
 		// to get us the final records.
 
-		HashMap<Integer, Employee> map1 = new HashMap<Integer, Employee>(mainRecords);
-		HashMap<Integer, Employee> map2 = new HashMap<Integer, Employee>(uniqueRecords);
-		LinkedHashMap<Integer, Employee> finalMap = new LinkedHashMap<Integer, Employee>(map1);
+		HashMap<Integer, Employee> mainRecordsCopy = new HashMap<Integer, Employee>(mainRecords);
+		HashMap<Integer, Employee> uniqueRecordsCopy = new HashMap<Integer, Employee>(uniqueRecords);
+		LinkedHashMap<Integer, Employee> finalMap = new LinkedHashMap<Integer, Employee>(mainRecordsCopy);
 
-		map2.forEach((key, value) -> finalMap.merge(key, value, (v1, v2) -> {
+		uniqueRecordsCopy.forEach((key, value) -> finalMap.merge(key, value, (v1, v2) -> {
 			overwrittenRecords.add(v1 + "");
 			overwrittenRec_no++;
 			return v2;
 		}));
 
-		logg.info("merged HashMap:");
+		/*logg.info("merged HashMap:");
 		for (Map.Entry<Integer, Employee> each : finalMap.entrySet()) {
 			logg.info(each.getValue());
 		}
-		logg.info("******************************");
+		logg.info("******************************");*/
 		return finalMap;
 	}
 
@@ -183,6 +185,7 @@ public class EmployeeRecordMaintainance {
 			TARGET_FILE_PATH = DEFAULT_TARGET_FILE_PATH;
 		}
 		String toWrite = "";
+		logg.info("following are the over-written records:");
 		try (FileWriter file2 = new FileWriter(TARGET_FILE_PATH, false);) {
 
 			// br2 = new BufferedWriter(file2);
@@ -191,6 +194,7 @@ public class EmployeeRecordMaintainance {
 				toWrite = each.getValue() + "";
 				file2.write(toWrite + "\n");
 				// br2.newLine();
+				logg.info(toWrite);
 			}
 
 		} catch (IOException ioe) {
@@ -215,10 +219,14 @@ public class EmployeeRecordMaintainance {
 		}
 	}
 
-	
-    public static void	resourceIntializer() {
-    	ReadConfigFile.getFile();
-    }
+	public static void resourceIntializer() throws Exception {
+		try {
+			ReadConfigFile.getFile();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			throw new Exception("resource intialization failed config file missing.");
+		}
+	}
 
 	public static void main(String[] agrs) {
 		try {
@@ -228,15 +236,15 @@ public class EmployeeRecordMaintainance {
 			// System.out.println(pathConfigFile);
 			String INPUT_FILE_PATH = ReadConfigFile.getResources("inputFile");
 			String TARGET_FILE_PATH = ReadConfigFile.getResources("targetFile");
-			
+
 			// System.out.println(targetFile);
 			// System.out.println(inputFile);
-			
+			readOriginalCSV(INPUT_FILE_PATH);
+
 			// reading contents of the final record file.
 			readTargetFile(TARGET_FILE_PATH);
 			// reading contents of the file which is to be copied in the target file.
-			readOriginalCSV(INPUT_FILE_PATH);
-
+			
 			HashMap<Integer, Employee> finalMap = new HashMap<Integer, Employee>();
 			finalMap = finalMapping(uniqueRecords, mainRecords);
 
@@ -247,6 +255,8 @@ public class EmployeeRecordMaintainance {
 			logg.info("Number of New records added : " + addedRec_no + "\n");
 			logg.info("******************************");
 			logg.info("Number of overwritten Records : " + (overwrittenRec_no) + "\n");
+			logg.info("******************************");
+			logg.info("Number of duplicate Records : " + (duplicateRec_no) + "\n");
 			logg.info("******************************");
 
 			logg.info("finalRecords.dat has the uniques records and newly added records in sorted order. \n");

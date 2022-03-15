@@ -1168,3 +1168,477 @@
 2022-03-15 09:31:16,727 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
 
 2022-03-15 09:31:16,727 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 11:41:08,770 INFO A.F.EmployeeRecordMaintainance [main] uniqueRecords HashMap:
+2022-03-15 11:41:08,774 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 11:41:08,774 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 11:41:08,774 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 11:41:08,775 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 11:41:08,776 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:41:08,777 INFO A.F.EmployeeRecordMaintainance [main] mainRecord HashMap:
+2022-03-15 11:41:08,777 INFO A.F.EmployeeRecordMaintainance [main] 2,  "Sakshi"  ,      "F",      24,       61
+2022-03-15 11:41:08,777 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Kritika"  ,     "F",     21,       67
+2022-03-15 11:41:08,777 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,         "M",     25,       78
+2022-03-15 11:41:08,778 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,      "F",     34,       89
+2022-03-15 11:41:08,778 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:41:08,778 INFO A.F.EmployeeRecordMaintainance [main] merged HashMap:
+2022-03-15 11:41:08,779 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 11:41:08,779 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 11:41:08,779 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,         "M",     25,       78
+2022-03-15 11:41:08,779 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,      "F",     34,       89
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 11:41:08,780 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 11:41:08,781 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 11:41:08,781 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 11:41:08,781 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 11:41:08,781 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 11:41:08,782 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 11:41:08,782 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 11:41:08,782 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 11:41:08,782 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 11:41:08,782 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:41:08,792 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 18
+
+2022-03-15 11:41:08,792 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:41:08,792 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 2
+
+2022-03-15 11:41:08,792 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:41:08,792 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 11:41:08,792 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 11:41:56,149 FATAL A.F.EmployeeRecordMaintainance [main] ..
+2022-03-15 11:43:07,857 INFO A.F.EmployeeRecordMaintainance [main] uniqueRecords HashMap:
+2022-03-15 11:43:07,860 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 11:43:07,860 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 11:43:07,860 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 11:43:07,860 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 11:43:07,860 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 11:43:07,860 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 11:43:07,861 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 11:43:07,862 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 11:43:07,862 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 11:43:07,862 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:43:07,863 INFO A.F.EmployeeRecordMaintainance [main] mainRecord HashMap:
+2022-03-15 11:43:07,863 INFO A.F.EmployeeRecordMaintainance [main] 1,   "Alex"  ,       "M",     41,       74
+2022-03-15 11:43:07,863 INFO A.F.EmployeeRecordMaintainance [main] 3,   "Carl"  ,       "M",     32,       70
+2022-03-15 11:43:07,863 INFO A.F.EmployeeRecordMaintainance [main] 4,   "Dave"  ,       "M",     39,       72
+2022-03-15 11:43:07,863 INFO A.F.EmployeeRecordMaintainance [main] 5,   "Ruth"  ,       "F",     28,       65
+2022-03-15 11:43:07,863 INFO A.F.EmployeeRecordMaintainance [main] 6,   "Myra"  ,       "F",     23,       62
+2022-03-15 11:43:07,864 INFO A.F.EmployeeRecordMaintainance [main] 7,   "Neil"  ,       "M",     36,       75
+2022-03-15 11:43:07,864 INFO A.F.EmployeeRecordMaintainance [main] 8,   "Jake"  ,       "M",     32,       69
+2022-03-15 11:43:07,864 INFO A.F.EmployeeRecordMaintainance [main] 9,   "Quin"  ,       "M",     29,       71
+2022-03-15 11:43:07,864 INFO A.F.EmployeeRecordMaintainance [main] 10,   "Omar"  ,       "M",     38,       70
+2022-03-15 11:43:07,864 INFO A.F.EmployeeRecordMaintainance [main] 11,   "Elly"  ,       "F",     30,       66
+2022-03-15 11:43:07,864 INFO A.F.EmployeeRecordMaintainance [main] 12,   "Gwen"  ,       "F",     26,       64
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 45,   "Sukriti"  ,      "F",      34,       89
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 13,   "Ivan"  ,       "M",     53,       72
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 14,   "Fran"  ,       "F",     33,       66
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 15,   "Hank"  ,       "M",     30,       71
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 16,   "Page"  ,       "F",     31,       67
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 18,   "Luke"  ,       "M",     34,       72
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 19,   "Kate"  ,       "F",     47,       69
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] 20,   "Zayn"  ,         "M",      25,       78
+2022-03-15 11:43:07,865 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:43:07,866 INFO A.F.EmployeeRecordMaintainance [main] merged HashMap:
+2022-03-15 11:43:07,866 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 11:43:07,866 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 11:43:07,866 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 45,   "Sukriti"  ,      "F",      34,       89
+2022-03-15 11:43:07,867 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 11:43:07,868 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 11:43:07,868 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 11:43:07,869 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 11:43:07,869 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 11:43:07,869 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 11:43:07,869 INFO A.F.EmployeeRecordMaintainance [main] 20,   "Zayn"  ,         "M",      25,       78
+2022-03-15 11:43:07,869 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 11:43:07,870 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:43:07,877 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 3
+
+2022-03-15 11:43:07,877 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:43:07,877 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 17
+
+2022-03-15 11:43:07,877 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 11:43:07,877 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 11:43:07,878 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 12:01:41,284 INFO A.F.EmployeeRecordMaintainance [main] uniqueRecords HashMap:
+2022-03-15 12:01:41,287 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:01:41,287 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:01:41,288 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:01:41,289 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:01:41,289 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:01:41,289 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] mainRecord HashMap:
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] 2,  "Bert"  ,       "M",     42,       68
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] 3,   "Carl"  ,       "M",     32,       70
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] 4,   "Dave"  ,       "M",     39,       72
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] 5,   "Ruth"  ,       "F",     28,       65
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] 6,   "Myra"  ,       "F",     23,       62
+2022-03-15 12:01:41,290 INFO A.F.EmployeeRecordMaintainance [main] 7,   "Neil"  ,       "M",     36,       75
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 8,   "Jake"  ,       "M",     32,       69
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 9,   "Quin"  ,       "M",     29,       71
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 10,   "Omar"  ,       "M",     38,       70
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 11,   "Elly"  ,       "F",     30,       66
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 12,   "Gwen"  ,       "F",     26,       64
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 45,    "Sukriti"   ,      "F",       34,       89
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 13,   "Ivan"  ,       "M",     53,       72
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 14,   "Fran"  ,       "F",     33,       66
+2022-03-15 12:01:41,291 INFO A.F.EmployeeRecordMaintainance [main] 15,   "Hank"  ,       "M",     30,       71
+2022-03-15 12:01:41,292 INFO A.F.EmployeeRecordMaintainance [main] 16,   "Page"  ,       "F",     31,       67
+2022-03-15 12:01:41,292 INFO A.F.EmployeeRecordMaintainance [main] 18,   "Luke"  ,       "M",     34,       72
+2022-03-15 12:01:41,292 INFO A.F.EmployeeRecordMaintainance [main] 19,   "Kate"  ,       "F",     47,       69
+2022-03-15 12:01:41,292 INFO A.F.EmployeeRecordMaintainance [main] 20,    "Zayn"   ,         "M",       25,       78
+2022-03-15 12:01:41,292 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] merged HashMap:
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:01:41,293 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 45,    "Sukriti"   ,      "F",       34,       89
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:01:41,294 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:01:41,295 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:01:41,295 INFO A.F.EmployeeRecordMaintainance [main] 20,    "Zayn"   ,         "M",       25,       78
+2022-03-15 12:01:41,295 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:01:41,295 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:01:41,301 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 3
+
+2022-03-15 12:01:41,301 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:01:41,301 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 17
+
+2022-03-15 12:01:41,301 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:01:41,301 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 12:01:41,301 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 12:04:05,128 INFO A.F.EmployeeRecordMaintainance [main] uniqueRecords HashMap:
+2022-03-15 12:04:05,130 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:04:05,130 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:04:05,130 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:04:05,131 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:04:05,132 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:04:05,132 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:04:05,132 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:04:05,132 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:04:05,132 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:04:05,132 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:04:05,133 INFO A.F.EmployeeRecordMaintainance [main] mainRecord HashMap:
+2022-03-15 12:04:05,133 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Shruti"  ,      "F",      21,       54
+2022-03-15 12:04:05,133 INFO A.F.EmployeeRecordMaintainance [main] 2,  "Sakshi"  ,      "F",      24,       61
+2022-03-15 12:04:05,133 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Kritika"  ,     "F",     21,       67
+2022-03-15 12:04:05,133 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,        "M",     25,       78
+2022-03-15 12:04:05,134 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,     "F",     34,       89
+2022-03-15 12:04:05,134 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] merged HashMap:
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,        "M",     25,       78
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,     "F",     34,       89
+2022-03-15 12:04:05,135 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:04:05,136 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:04:05,137 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:04:05,137 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:04:05,137 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:04:05,137 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:04:05,142 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 17
+
+2022-03-15 12:04:05,142 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:04:05,142 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 3
+
+2022-03-15 12:04:05,143 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:04:05,143 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 12:04:05,143 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 12:55:48,225 INFO A.F.EmployeeRecordMaintainance [main] uniqueRecords HashMap:
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:55:48,227 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:55:48,228 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] mainRecord HashMap:
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Shruti" ,      "F",    21,       54
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] 2,  "Sakshi" ,      "F",    24,       61
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Kritika" ,    "F",    21,       67
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,       "M",    25,       78
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,    "F",    34,       89
+2022-03-15 12:55:48,229 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] merged HashMap:
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,       "M",    25,       78
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,    "F",    34,       89
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:55:48,230 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:55:48,231 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:55:48,235 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 17
+
+2022-03-15 12:55:48,235 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:55:48,235 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 3
+
+2022-03-15 12:55:48,236 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:55:48,236 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 12:55:48,236 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 12:56:18,294 INFO A.F.EmployeeRecordMaintainance [main] following are the over-written records:
+2022-03-15 12:56:18,298 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:56:18,299 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:56:18,299 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:56:18,299 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:56:18,299 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 45,   "Sukriti"  ,    "F",     34,       89
+2022-03-15 12:56:18,300 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 20,   "Zayn"  ,       "M",     25,       78
+2022-03-15 12:56:18,301 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:56:18,305 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 3
+
+2022-03-15 12:56:18,306 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:56:18,306 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 17
+
+2022-03-15 12:56:18,307 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:56:18,307 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 12:56:18,307 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 12:56:36,743 INFO A.F.EmployeeRecordMaintainance [main] following are the over-written records:
+2022-03-15 12:56:36,745 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 12:56:36,745 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 12:56:36,745 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 45,    "Sukriti"   ,    "F",      34,       89
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 12:56:36,746 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 12:56:36,747 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 12:56:36,747 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 12:56:36,747 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 12:56:36,747 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 12:56:36,747 INFO A.F.EmployeeRecordMaintainance [main] 20,    "Zayn"   ,       "M",      25,       78
+2022-03-15 12:56:36,747 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 12:56:36,750 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 3
+
+2022-03-15 12:56:36,750 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:56:36,751 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 17
+
+2022-03-15 12:56:36,751 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 12:56:36,751 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 12:56:36,751 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 14:01:16,182 INFO A.F.EmployeeRecordMaintainance [main] following are the over-written records:
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,        "M",     25,       78
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,     "F",     34,       89
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 14:01:16,185 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 14:01:16,186 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 14:01:16,190 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : -26
+
+2022-03-15 14:01:16,190 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:01:16,190 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 46
+
+2022-03-15 14:01:16,190 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:01:16,190 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 14:01:16,190 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 14:05:05,876 INFO A.F.EmployeeRecordMaintainance [main] following are the over-written records:
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 14:05:05,879 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 45,   "Sukriti"  ,     "F",      34,       89
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 20,   "Zayn"  ,        "M",      25,       78
+2022-03-15 14:05:05,880 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 14:05:05,884 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 3
+
+2022-03-15 14:05:05,884 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:05:05,884 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 17
+
+2022-03-15 14:05:05,884 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:05:05,885 INFO A.F.EmployeeRecordMaintainance [main] Number of duplicate Records : 43
+
+2022-03-15 14:05:05,885 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:05:05,885 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 14:05:05,885 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
+2022-03-15 14:07:03,843 INFO A.F.EmployeeRecordMaintainance [main] following are the over-written records:
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Alex" ,       "M",    41,       74
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 2, "Bert" ,       "M",    42,       68
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 20,  "Zayn" ,      "M",     25,       78
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 45,  "Sukriti" ,     "F",     34,       89
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 3,  "Carl" ,       "M",    32,       70
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 4,  "Dave" ,       "M",    39,       72
+2022-03-15 14:07:03,845 INFO A.F.EmployeeRecordMaintainance [main] 5,  "Ruth" ,       "F",    28,       65
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 6,  "Myra" ,       "F",    23,       62
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 7,  "Neil" ,       "M",    36,       75
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 13,  "Ivan" ,       "M",    53,       72
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-15 14:07:03,846 INFO A.F.EmployeeRecordMaintainance [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-15 14:07:03,847 INFO A.F.EmployeeRecordMaintainance [main] 16,  "Page" ,       "F",    31,       67
+2022-03-15 14:07:03,847 INFO A.F.EmployeeRecordMaintainance [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-15 14:07:03,850 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 17
+
+2022-03-15 14:07:03,850 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:07:03,850 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 3
+
+2022-03-15 14:07:03,850 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:07:03,851 INFO A.F.EmployeeRecordMaintainance [main] Number of duplicate Records : 43
+
+2022-03-15 14:07:03,851 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-15 14:07:03,851 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-15 14:07:03,851 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
