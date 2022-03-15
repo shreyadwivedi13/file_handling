@@ -1,6 +1,0 @@
-2022-03-10 10:17:54,738 INFO A.F.Maintainance [main] 18,  "Luke" ,       "M",    34,       72
-2022-03-10 10:17:54,740 INFO A.F.Maintainance [main] 19,  "Kate" ,       "F",    47,       69
-2022-03-10 10:17:54,740 INFO A.F.Maintainance [main] 20,    "Zayn"   ,       "M",      25,       78
-2022-03-10 10:17:54,740 INFO A.F.Maintainance [main] 2, "Bert" ,       "M",    42,       68
-2022-03-10 10:18:33,927 FATAL A.F.Maintainance [main] fail to load the rawRecord file
-2022-03-10 10:20:06,840 FATAL A.F.Maintainance [main] fail to load the rawRecord file

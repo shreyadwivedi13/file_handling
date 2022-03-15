@@ -1,6 +1,7 @@
 package Assignment.FileHandling;
 /*
- * this file reads
+ * this file reads the configuration file.
+ * author @shreya.dwivedi
  */
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

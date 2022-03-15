@@ -1,5 +1,7 @@
 package Assignment.FileHandling;
-//class to set fields.
+/*class to set data fields.
+ * author @shreya.dwivedi
+ */
 public class Employee {
 
 	private int id;

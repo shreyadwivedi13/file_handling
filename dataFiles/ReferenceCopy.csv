@@ -42,6 +42,6 @@ Id, Name, Gender, Age, Weight
 9, "Quin",       "M",   29,       71
 10, "Omar",       "M",   38,       70
 11, "Elly",       "F",   30,       66
-1,  "Shruti"  ,      "F",      21,       54
-2,  "Sakshi"  ,      "F",      24,       61
-18,  "Kritika"  ,     "F",     21,       67
+1,  "Shruti" ,      "F",      21,       54
+2,  "Sakshi" ,      "F",      24,       61
+18,  "Kritika" ,     "F",     21,       67

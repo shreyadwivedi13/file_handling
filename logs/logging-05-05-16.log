@@ -1,6 +1,0 @@
-2022-03-11 05:04:40,389 FATAL A.F.EmployeeRecords [main] some error occured while writing the final content file.
-2022-03-11 05:05:16,366 INFO A.F.EmployeeRecords [main] unclean data file
-2022-03-11 05:05:16,368 INFO A.F.EmployeeRecords [main] final content file
-2022-03-11 05:05:16,370 FATAL A.F.EmployeeRecords [main] Error in closing the BufferedReader(while reading the targetFile.)
-2022-03-11 05:05:16,370 INFO A.F.EmployeeRecords [main] mainRecord HashMap:
-2022-03-11 05:05:16,371 FATAL A.F.EmployeeRecords [main] Error in closing the BufferedReader(in rawRecord function)
