@@ -1,0 +1,6 @@
+2022-03-11 05:05:33,331 INFO A.F.EmployeeRecords [main] 14,  "Fran" ,       "F",    33,       66
+2022-03-11 05:05:33,336 INFO A.F.EmployeeRecords [main] 15,  "Hank" ,       "M",    30,       71
+2022-03-11 05:05:33,336 INFO A.F.EmployeeRecords [main] 16,  "Page" ,       "F",    31,       67
+2022-03-11 05:05:33,336 INFO A.F.EmployeeRecords [main] 18,  "Luke" ,       "M",    34,       72
+2022-03-11 05:05:33,336 INFO A.F.EmployeeRecords [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-11 13:04:19,304 FATAL A.F.EmployeeRecords [main] Error in closing the BufferedReader(while reading the targetFile.)

@@ -1,0 +1,8 @@
+2022-03-11 13:24:45,330 INFO A.F.EmployeeRecords [main] 16,  "Page" ,       "F",    31,       67
+2022-03-11 13:24:45,333 INFO A.F.EmployeeRecords [main] 19,  "Kate" ,       "F",    47,       69
+2022-03-11 13:24:45,340 INFO A.F.EmployeeRecords [main] Number of New records added : 17
+
+2022-03-11 13:24:45,340 INFO A.F.EmployeeRecords [main] ******************************
+2022-03-11 13:24:45,340 INFO A.F.EmployeeRecords [main] Number of overwritten Records : 3
+
+2022-03-11 13:24:45,341 INFO A.F.EmployeeRecords [main] ******************************

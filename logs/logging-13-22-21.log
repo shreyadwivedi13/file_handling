@@ -1,0 +1,7 @@
+2022-03-11 13:22:21,637 INFO A.F.EmployeeRecords [main] mainRecord HashMap:
+2022-03-11 13:22:21,645 FATAL A.F.EmployeeRecords [main] Error in closing the BufferedReader(in inputFile function)
+2022-03-11 13:22:21,646 INFO A.F.EmployeeRecords [main] merged HashMap:
+2022-03-11 13:22:21,647 FATAL A.F.EmployeeRecords [main] some error occured while writing the final content file.
+2022-03-11 13:22:21,650 INFO A.F.EmployeeRecords [main] Number of New records added : 0
+
+2022-03-11 13:22:21,650 INFO A.F.EmployeeRecords [main] ******************************

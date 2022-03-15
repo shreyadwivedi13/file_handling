@@ -1,0 +1,7 @@
+2022-03-10 15:05:06,149 FATAL A.F.Maintainance [main] fail to load the rawRecord file
+2022-03-10 15:16:04,174 INFO A.F.Maintainance [main] unclean data file
+2022-03-10 15:16:04,177 INFO A.F.Maintainance [main] final content file
+2022-03-10 15:16:04,179 INFO A.F.Maintainance [main] mainRecord HashMap:
+2022-03-10 15:16:04,181 INFO A.F.Maintainance [main] merged HashMap:
+2022-03-10 15:16:04,181 FATAL A.F.Maintainance [main] some error occured while writing the final content file.
+2022-03-10 15:41:29,146 INFO A.F.EmployeeRecords [main] unclean data file

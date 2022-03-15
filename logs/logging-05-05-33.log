@@ -1,0 +1,6 @@
+2022-03-11 05:05:33,328 INFO A.F.EmployeeRecords [main] 8,  "Jake" ,       "M",    32,       69
+2022-03-11 05:05:33,331 INFO A.F.EmployeeRecords [main] 9,  "Quin" ,       "M",    29,       71
+2022-03-11 05:05:33,331 INFO A.F.EmployeeRecords [main] 10,  "Omar" ,       "M",    38,       70
+2022-03-11 05:05:33,331 INFO A.F.EmployeeRecords [main] 11,  "Elly" ,       "F",    30,       66
+2022-03-11 05:05:33,331 INFO A.F.EmployeeRecords [main] 12,  "Gwen" ,       "F",    26,       64
+2022-03-11 05:05:33,331 INFO A.F.EmployeeRecords [main] 13,  "Ivan" ,       "M",    53,       72

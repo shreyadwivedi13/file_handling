@@ -1,0 +1,7 @@
+2022-03-11 13:04:19,307 INFO A.F.EmployeeRecords [main] mainRecord HashMap:
+2022-03-11 13:04:19,315 FATAL A.F.EmployeeRecords [main] null
+2022-03-11 13:05:46,275 FATAL A.F.EmployeeRecords [main] null
+2022-03-11 13:06:13,826 FATAL A.F.EmployeeRecords [main] Error in closing the BufferedReader(while reading the targetFile.)
+2022-03-11 13:06:13,829 INFO A.F.EmployeeRecords [main] mainRecord HashMap:
+2022-03-11 13:06:13,829 FATAL A.F.EmployeeRecords [main] null
+2022-03-11 13:17:39,895 FATAL A.F.EmployeeRecords [main] Error in closing the BufferedReader(while reading the targetFile.)
