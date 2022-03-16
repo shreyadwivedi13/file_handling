@@ -1,0 +1,12 @@
+2022-03-16 02:35:35,813 INFO A.F.EmployeeRecordMaintainance [main] 8, "Jake",       "M",   32,       69
+2022-03-16 02:35:35,815 INFO A.F.EmployeeRecordMaintainance [main] 9, "Quin",       "M",   29,       71
+2022-03-16 02:35:35,815 INFO A.F.EmployeeRecordMaintainance [main] 10, "Omar",       "M",   38,       70
+2022-03-16 02:35:35,815 INFO A.F.EmployeeRecordMaintainance [main] 11, "Elly",       "F",   30,       66
+2022-03-16 02:35:35,816 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Shruti" ,      "F",      21,       54
+2022-03-16 02:35:35,816 INFO A.F.EmployeeRecordMaintainance [main] 2,  "Sakshi" ,      "F",      24,       61
+2022-03-16 02:35:35,816 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Kritika" ,     "F",     21,       67
+2022-03-16 02:35:35,817 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 17
+
+2022-03-16 02:35:35,817 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-16 02:35:35,818 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 46
+

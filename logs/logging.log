@@ -1,0 +1,12 @@
+2022-03-16 02:43:24,007 INFO A.F.EmployeeRecordMaintainance [main] 1,  "Shruti" ,      "F",      21,       54
+2022-03-16 02:43:24,008 INFO A.F.EmployeeRecordMaintainance [main] 2,  "Sakshi" ,      "F",      24,       61
+2022-03-16 02:43:24,009 INFO A.F.EmployeeRecordMaintainance [main] 18,  "Kritika" ,     "F",     21,       67
+2022-03-16 02:43:24,010 INFO A.F.EmployeeRecordMaintainance [main] Number of New records added : 17
+
+2022-03-16 02:43:24,010 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-16 02:43:24,010 INFO A.F.EmployeeRecordMaintainance [main] Number of overwritten Records : 46
+
+2022-03-16 02:43:24,010 INFO A.F.EmployeeRecordMaintainance [main] ******************************
+2022-03-16 02:43:24,010 INFO A.F.EmployeeRecordMaintainance [main] finalRecords.dat has the uniques records and newly added records in sorted order. 
+
+2022-03-16 02:43:24,011 INFO A.F.EmployeeRecordMaintainance [main] referenceCopy.csv has the overwritten data
